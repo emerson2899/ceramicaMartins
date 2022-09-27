@@ -36,3 +36,96 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  color: rgb(122, 76, 7);
+  text-align: center;
+}
+ link{
+   text-decoration: none;
+ }
+
+ .barNavigation{
+  margin-bottom:9rem;
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid;
+  text-align: center;  
+}
+
+.titulo{
+  text-align: center;
+  margin-left: 2px;
+  text-align: center;
+  font-size: 6rem;
+	display: table;
+	vertical-align: middle;
+  width: 80%;
+  height: 10%;
+  margin-left: 9%;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+
+}
+
+h1{
+  text-align: center;
+}
+
+.navTransparenc{
+ 
+    padding: 15px 1px;
+    background: rgba(255, 140, 0, 0.6);
+    border:none;  
+  }
+
+  
+.texto-capa{
+	text-align: center;
+	display: table;
+	vertical-align: middle;
+	text-shadow: 33px 33px 33px black, 0 0 5px black, 0 0 2px black;
+	color: #ffff;
+}
+
+.capa{
+  background-image: url('./imagens/fundo.jpeg');
+  background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1600px;
+	position: relative;
+
+  
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+  margin: 2%;
+}
+
+.itemBarra a:link{
+  font-size: 2vh;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px #fffb00, 0 0 5px;
+}
+.itemBarra a:hover{
+  color: #ffffff;
+  font-size: 2.2vh;
+}
+input{
+  border: solid #f1b861 ;
+  border-radius: 5px;
+  height: 3vh;
+  
+}
+.planFundo{
+  background-color: #282c34;
+}
+
+
+
+
+
+
+
+ 
