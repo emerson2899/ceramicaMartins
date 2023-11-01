@@ -2,7 +2,7 @@ import React from "react";
 import { Conteudo, Titulo } from "../../estilo";
 import '../../App.css';
 
-
+/*
 const Home = () =>{
 
 
@@ -21,4 +21,15 @@ const Home = () =>{
         
     );
 }  
-export default Home
+export default Home*/
+function Home(){
+
+    return(
+        <>
+        <Titulo><h1 className='titulo texto-capa capa'>Cerâmica Martins e Decorações</h1></Titulo>
+
+
+        </>
+    )
+}
+ export default Home

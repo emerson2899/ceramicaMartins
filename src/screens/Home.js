@@ -14,6 +14,7 @@ function Home () {
     return (
         <Container>
             <Header search={headerSearch} onSearch = {setHeaderSearch}/>
+            <h1 style={{color:"#000000", alignItems: "center", textAlign:'center'}}>Olá mundo</h1>
             
         </Container>
     );

@@ -1,0 +1,37 @@
+codigo;linha;modelo;tamanho ;unMedida;estoque;precoAtacado;precoVarejo
+0;Agropecuaria;Bededouro para galinha n0;400;Ml;1;2;1
+1;Agropecuaria;Bebedouro para Galinha n1;1;Litro;1;2;1
+2;Agropecuaria;Bebedouro para Galinha n2;2;Litro;1;2;1
+3;Agropecuaria;Bebedouro para Galinha n3;3;Litro;1;2;1
+4;Agropecuaria;Bebedouro para Galinha n4;5;Litro;1;2;1
+5;Agropecuaria;Tigela Passaro numero 1;4 x 8;Cent�metros;1;2;1
+6;Agropecuaria;Tigela Passaro numero 2;5 X 10;Cent�metros;1;2;1
+7;Agropecuaria;Tigela Passaro numero 3;6 X 12;Cent�metros;1;2;1
+8;Agropecuaria;Tigela Passaro numero 4 ;7 X 15;Cent�metros;1;2;1
+9;Agropecuaria;Cao Reto numero 1;10 X 18;Cent�metros;1;2;1
+10;Agropecuaria;Cao Reto numero 2;12 X 24;Cent�metros;1;2;1
+11;Agropecuaria;Prato Para Coelho numero 0;6 X 9;Cent�metros;1;2;1
+12;Agropecuaria;Prato Para Coelho numero 1;7 X 10;Cent�metros;1;2;1
+13;Agropecuaria;Prato Para Coelho numero 2;10 X 12;Cent�metros;1;2;1
+14;Agropecuaria;Prato Para Coelho numero 3;12 X 14;Cent�metros;1;2;1
+15;Agropecuaria;Prato Para Coelho numero 4;14 X 17 ;Cent�metros;1;2;1
+16;Agropecuaria;Prato Para Coelho numero 5;16 X 22;Cent�metros;1;2;1
+17;Decoracao;Damasco Liso numero 1;39 X 37,5;Cent�metros;1;2;1
+18;Decoracao;Damasco Liso numero 2;47 X 41,5;Cent�metros;1;2;1
+19;Decoracao;Damasco Rustico numero 1;39 X 37,5;Cent�metros;1;2;1
+20;Decoracao;Damasco Rustico numero 2;47 X 41,5;Cent�metros;1;2;1
+21;Decoracao;Xicara Lisa PP;11 X 14;Cent�metros;1;2;1
+22;Decoracao;Xicara Estrela PP;11 X 14;Cent�metros;1;2;1
+23;Decoracao;Xicara Vazada PP;11 X 14;Cent�metros;1;2;1
+24;Decoracao;Xicara Orqu�dea PP;11 X 14;Cent�metros;1;2;1
+25;Decoracao;Xicara Lisa P;15 X 18;Cent�metros;1;2;1
+26;Decoracao;Xicara Estrela P;15 X 18;Cent�metros;1;2;1
+27;Decoracao;Xicara Vazada P;15 X 18;Cent�metros;1;2;1
+28;Decoracao;Xicara Orqu�dea P;15 X18;Cent�metros;1;2;1
+29;Decoracao;Xicara Lisa G;21, 5 X 26;Cent�metros;1;2;1
+30;Decoracao;Xicara Estrela G;21,5 X 26;Cent�metros;1;2;1
+31;Decoracao;Xicara Vazada G;21,5 X 26;Cent�metros;1;2;1
+32;Decoracao;Xicara Orquidea G;21,5 X 26;Cent�metros;1;2;1
+33;Decoracao;Vaso �frica numero 1;51 X 33;Cent�metros;1;20;11
+34;Decoracao;Vaso �frica numero 2;60 X 40 ;Cent�metros;1;2;11
+

@@ -42,6 +42,7 @@ align-self: center;
 `;
 
 export const Footer = styled.footer`
+margin-top: 10%;
 background: rgba(255, 140, 0, 0.6);
 text-align: center;
 color: #FFFFFF;
@@ -95,5 +96,14 @@ display: flex;
 align-itens: center;
 align-self: center;
 `;
+
+export const AreaCont = styled.aside`
+background-color: #FFF;
+margin: 5rem;
+display: flex;
+align-itens: center;
+align-self: center;
+`;
+
 
 

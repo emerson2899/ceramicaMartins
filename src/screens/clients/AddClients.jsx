@@ -30,7 +30,7 @@ function AddClients (){
                     <ItemDescription>Celular: <br/> <input type="tel" value={cellPhone} onchange={(e) => setCellPhone(e.target.value)}/></ItemDescription>
                     </ItemForm>
                     <ItemForm>
-                    <ItemDescription>Email: <br/> <input type="email" value={email} onchange={(e) => setEmail(e.target.value)}/></ItemDescription>
+                    <ItemDescription>Email: <br/> <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}/></ItemDescription>
                     </ItemForm>
                     <ItemForm>
                     <ItemDescription>CNPJ: <br/> <input type="number" value={cnpj} onchange={(e) => setCnpj(e.target.value)}  /> </ItemDescription>

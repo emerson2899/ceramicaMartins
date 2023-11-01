@@ -1,6 +1,7 @@
 import '../../App.css';
 import React   from 'react';
 import { Conteudo, Information, CampProduct, CadProduct } from '../../estilo';
+import { Table } from 'react-bootstrap';
 
 function Products (){
 
@@ -35,29 +36,32 @@ function Products (){
 
 
 
-    return(<Conteudo>
+    return(<>
         <h1>Produtos a serem vizualizados</h1>
     <Information>Total de produtos a serem vizualizados: {product.length}</Information>
 
     <CadProduct>
-        <table>
-            <tr>
+        <Table striped bordered hover style={{marginLeft:'10%', marginRight:'10%'}} >
+            <thead>
                 <th>Código</th>
                 <th>Modelo</th>
                 <th>Preço</th>
                 <th>Estoque</th>
-            </tr>
+            </thead>
+            <tbody>
             {product.map(produto =>(
             <tr key={produto.id}>
                 <td>{produto.id}</td>
-                <td>{produto.modelo}</td>
+                <td>{produto.modelo}</td> 
                 <td>{produto.price}</td>
                 <td>{produto.estoque}</td>
 
             </tr>
+            
 
 ))}
-        </table>
+            </tbody>
+        </Table>
 
 
 
@@ -65,6 +69,6 @@ function Products (){
 
 
 
-    </Conteudo>)
+    </>)
 }
  export default Products
