@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { Col, Form, Row } from "react-bootstrap";
+import { Col, Form, Row, Button } from "react-bootstrap";
 
 function Suplier(){
     const [nameFantazi, setNameFantazi] = useState();
@@ -67,6 +67,10 @@ function Suplier(){
             <Row>
                 
             </Row>
+            <Button variant="success">Salvar</Button>
+            <Button style={{marginLeft:'2re,'}} variant="danger">
+                Cancelar
+            </Button>
                        
         </Form>
        </>

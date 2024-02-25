@@ -117,7 +117,7 @@ function AddProducts () {
                 
             </Form.Group>
             </Row>
-            <Button variant='warning' style={{marginRight:'2rem'}}>Salvar Novo Produto</Button>
+            <Button variant='success' style={{marginRight:'2rem'}}>Salvar Novo Produto</Button>
             <Button variant='danger' >Cancelar</Button>
             </Form>
             
