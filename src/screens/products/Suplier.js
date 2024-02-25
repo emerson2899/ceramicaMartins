@@ -1,10 +1,12 @@
 import { React, useState } from "react";
 import { Col, Form, Row, Button } from "react-bootstrap";
+import { setLocale } from "yup";
 
 function Suplier(){
     const [nameFantazi, setNameFantazi] = useState();
     const [nome, setNome] = useState();
     const [cnpj, setCnpj] = useState();
+    const [cpf, setCpf] = useState();
     const [inscriState, setInscriState] = useState();
     const [inscriCity, setIncriCity] = useState();
     const [cep, setCep] = useState();
@@ -17,7 +19,16 @@ function Suplier(){
     const [telephone, setTelephone] = useState();
     const [cellphone, setCellphone] = useState();
 
-
+ function cancelar(){
+   return(
+    window.location.reload()
+   )
+ };
+ function Salvar(){
+    return(
+        alert(nameFantazi)
+    )
+ }
 
     return(
         <>
@@ -46,6 +57,12 @@ function Suplier(){
                 <Form.Group as={Col}>
                     <Form.Label>CNPJ</Form.Label>
                     <Form.Control type="text" value={cnpj} onChange={(e)=>setCnpj(e.target.value)} />
+                    
+                </Form.Group>
+                <Form.Group as={Col}>
+                <Form.Label>CPF</Form.Label>
+                    <Form.Control type="number" value={cpf} onChange={(e)=>setCpf(e.target.value)} />
+
                 </Form.Group>
             </Row>
             <br/>
@@ -61,14 +78,14 @@ function Suplier(){
                 </Form.Group>
                 <Form.Group as={Col}>
                     <Form.Label>Bairro</Form.Label>
-                    <Form.Control type="text" value={state} onChange={(e)=>setState(e.target.value)} />
+                    <Form.Control type="text" value={district} onChange={(e)=>setDistrict(e.target.value)} />
                 </Form.Group>
             </Row>
             <Row>
                 
             </Row>
-            <Button variant="success">Salvar</Button>
-            <Button style={{marginLeft:'2re,'}} variant="danger">
+            <Button onClick={Salvar} variant="success">Salvar</Button>
+            <Button onClick={cancelar} style={{marginLeft:'2re,'}} variant="danger">
                 Cancelar
             </Button>
                        
